@@ -5,3 +5,8 @@
     width: 50px;
     border-radius: 40px;
 }
+.itemTitle {
+    color: #b67e51;
+    font-size: 18px;
+    font-weight: bold;
+}
