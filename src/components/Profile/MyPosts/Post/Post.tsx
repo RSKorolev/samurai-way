@@ -2,8 +2,9 @@ import classes from './Post.module.css';
 type PropsType = {
     title: string;
     message: string;
+    likeCount: number;
 };
-const Post = ({ title, message }: PropsType) => {
+const Post = ({ title, message, likeCount }: PropsType) => {
     return (
         <div className={classes.item}>
             <img
@@ -12,7 +13,7 @@ const Post = ({ title, message }: PropsType) => {
             />
             <div className={classes.itemTitle}>{title}</div>
             {message}
-            <div>like 5</div>
+            <div>like {likeCount}</div>
         </div>
     );
 };

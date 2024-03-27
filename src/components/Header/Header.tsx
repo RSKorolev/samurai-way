@@ -4,7 +4,7 @@ const Header = () => {
     return (
         <header className={classes.header}>
             <img
-                src="https://i1.wp.com/d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX4866092.jpg"
+                src="https://cdn0.iconfinder.com/data/icons/social-networks-and-media-flat-icons/136/Social_Media_Socialmedia_network_share_socialnetwork_network-02-1024.png"
                 alt="logo"
             />
         </header>

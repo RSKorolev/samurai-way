@@ -2,21 +2,30 @@ import classes from '../Navbar/Navbar.module.css';
 const Navbar = () => {
     return (
         <nav className={classes.nav}>
-            <div className={`${classes.item} ${classes.active}`}>
-                <a href="/profile">Profile</a>
-            </div>
-            <div className={classes.item}>
-                <a href="/dialogs">Message</a>
+            <div>
+                <a
+                    className={`${classes.item} ${classes.active}`}
+                    href="/profile"
+                >
+                    Profile
+                </a>
             </div>
             <div>
-                <a href="/news">News</a>
+                <a className={classes.item} href="/dialogs">
+                    Message
+                </a>
+            </div>
+            <div>
+                <a className={classes.item} href="/news">
+                    News
+                </a>
             </div>
             <div>
                 <a className={classes.item} href="/music">
                     Music
                 </a>
             </div>
-            <div className={classes.item}>
+            <div>
                 <a className={classes.item} href="/settings">
                     Settings
                 </a>
